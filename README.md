@@ -21,3 +21,6 @@ Convert slack logs to html and deploy them
 [Gatsby typescript](https://zenn.dev/ryo_kawamata/articles/gatsby-ts-2020)
 
 [Gatsby tailwind](https://qiita.com/suin/items/7281351779b5206e17b3#twinmacro%E3%82%92react%E3%81%A7%E4%BD%BF%E3%81%86%E3%81%AB%E3%81%AF)
+
+[Gatsby deploy](https://blog.yucchiy.com/2020/02/deployment-to-self-hosted-server-for-gatsbyjs/)
+
