@@ -5,13 +5,13 @@ import "../styles/header.css"
 export default function Header() {
   return (
     <header>
-      <Link to="/">
-        <h1>
+        <h1 className="header-h1">
           <span className="sai">sai.ac</span>
           <span className="slash">/</span>
-          <span className="slack">slacklog</span>
+          <Link to="/">
+            <span className="slack">slacklog</span>
+          </Link>
         </h1>
-      </Link>
     </header>
   )
 }

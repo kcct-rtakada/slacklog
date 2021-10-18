@@ -1,26 +1,19 @@
-.h1 {
-    font-family: "Segoe UI";
+.header-h1 {
     font-size: 32px;
     font-weight: 600;
 }
 
 .sai {
-    font-family: "Segoe UI";
-    font-size: 32px;
-    font-weight: 600;
     color: #6699cc;
+    margin-left: 16px;
+    margin-right: 10px;
 }
 
 .slash {
-    font-family: "Segoe UI";
-    font-size: 32px;
-    font-weight: 600;
-    color: black;
+    color: #24292F;
 }
 
 .slack {
-    font-family: "Segoe UI";
-    font-size: 32px;
-    font-weight: 600;
     color: #6699cc;
+    margin-left: 10px;
 }

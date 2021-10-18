@@ -1,4 +1,13 @@
 .layout {
-    max-width: 960px;
     padding: 1rem;
+    font-family: "Segoe UI";
+}
+
+.footer {
+    marginTop: 2rem;
+    text-align: center;
+}
+
+.link {
+    color: #6699cc;
 }

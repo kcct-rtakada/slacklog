@@ -7,6 +7,11 @@ const Layout = ({ children }) => {
     <div className="layout">
       <Header />
       <main>{children}</main>
+      <footer className="footer">
+        Powered by
+        {' '}
+        <a href="https://www.gatsbyjs.com" className="link">Gatsby</a>
+      </footer>
     </div>
   )
 }
