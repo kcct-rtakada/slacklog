@@ -8,7 +8,9 @@ export default function random() {
       <Layout>
         <h4 className={"channels"}>#random</h4>
         <nav className={"nav"}>
-          <Link to={`/`}></Link>
+          <Link to={`/`} className={"nav-items"}>2021年10月</Link>
+          <Link to={`/`} className={"nav-items"}>2021年9月</Link>
+          <Link to={`/`} className={"nav-items"}>2021年8月</Link>
         </nav>
       </Layout>
   )

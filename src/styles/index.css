@@ -1,10 +1,8 @@
-.margin-16 {
-    margin: 16px;
-}
-
 .channels {
     padding-bottom: 8px;
     margin-bottom: 8px;
+    color: #24292f;
+    font-weight: 600;
 }
 
 .nav {
