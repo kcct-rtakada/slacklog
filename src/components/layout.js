@@ -7,7 +7,11 @@ const Layout = ({ children }) => {
   return (
     <div className="layout">
       <Header />
-      <main>{children}</main>
+      <main>
+        <div className={"margin-16"}>
+          {children}
+        </div>
+      </main>
       <Footer />
     </div>
   )

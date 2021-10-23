@@ -6,13 +6,11 @@ import Layout from "../components/layout"
 export default function Home() {
   return (
     <Layout>
-      <div className={"margin-16"}>
-        <h4 className={"channels"}>Channels</h4>
-        <nav className={"nav"}>
-          <Link to={`/channels/general`} className={"nav-items"}>#general</Link>
-          <Link to={'/channels/random'} className={"nav-items"}>#random</Link>
-        </nav>
-      </div>
+      <h4 className={"channels"}>Channels</h4>
+      <nav className={"nav"}>
+        <Link to={`/channels/general`} className={"nav-items"}>#general</Link>
+        <Link to={'/channels/random'} className={"nav-items"}>#random</Link>
+      </nav>
     </Layout>
   )
 }
