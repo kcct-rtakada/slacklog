@@ -1,9 +1,16 @@
-mod parse_json;
-
 use serde_json::{Result, Value};
 
-fn untyped_example() -> Result<()> {
-    // Some JSON input data as a &str. Maybe this comes from the user.
+pub struct channel {
+    id: String,
+    name: String,
+}
+
+impl channel {
+
+}
+
+#[test]
+fn slacklog_json_parse_test() {
     let data = r#"
 {
     "id": "C01TD4HG17U",
@@ -31,15 +38,5 @@ fn untyped_example() -> Result<()> {
 }
         "#;
 
-    // Parse the string of data into serde_json::Value.
-    let v: Value = serde_json::from_str(data)?;
-
-    // Access parts of the data by indexing with square brackets.
-    // println!("Please call {} at the number {}", v["name"], v["phones"][0]);
-    println!("{:?}", v);
-    Ok(())
 }
 
-fn main() {
-    untyped_example().unwrap();
-}
